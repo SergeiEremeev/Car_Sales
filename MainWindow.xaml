@@ -29,7 +29,7 @@
         </Menu>
         <ToolBar Grid.Row="1">
         </ToolBar>
-        <DataGrid x:Name="DataGridSale" Grid.Row="2" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <DataGrid x:Name="DataGridSale" Grid.Row="2" AutoGenerateColumns="True">
             
         </DataGrid>
         <Button x:Name="Add" Grid.Row="3" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="5,5,5,5" Margin="10,0,0,0"/>

@@ -19,12 +19,12 @@ namespace Car_Sales
     {
         
 
-        public MainWindow()
+        public MainWindow() 
         {
             InitializeComponent();
-            //заменить на свои
-            //Car_SalesContext a = new();
-            //DataGridSale.ItemsSource = a.Sales.ToList();
+
+            Car_SalesContext a = new();
+            DataGridSale.ItemsSource = a.Sales.ToList();
 
         }
     }
